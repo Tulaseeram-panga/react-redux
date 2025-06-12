@@ -1,12 +1,45 @@
-# React + Vite
+# 📝 Redux Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple yet fully functional **Todo List Application** built using **React** and **Redux Toolkit**. This project demonstrates state management using Redux Toolkit with multiple reducers, conditional rendering, and filtering operations.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 💡 Features
 
-## Expanding the ESLint configuration
+- ✅ Add new todos
+- ✅ Delete completed todos
+- ✅ Mark todos as completed/incomplete
+- ✅ Filter todos by:
+  - All
+  - Completed
+  - Incompleted
+- ✅ State management using Redux Toolkit
+- ✅ Conditional rendering based on state
+- ✅ Organized & scalable code structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🔧 Tech Stack
+
+- React JS
+- Redux Toolkit
+- React-Redux
+- JavaScript (ES6+)
+- CSS (Basic styling)
+
+---
+
+## 🎯 Learning Goals
+
+- Master Redux Toolkit (`createSlice`, `configureStore`)
+- Usage of `useSelector` and `useDispatch` hooks
+- Conditional rendering based on multiple state filters
+- Clean state structure using Redux best practices
+- Redux multi-slice concept preparation
+
+---
+
+🤝 Contribution
+Pull requests are always welcome!
+For major changes, please open an issue first to discuss.
+
